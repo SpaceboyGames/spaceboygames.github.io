@@ -1,0 +1,156 @@
+/*
+ * Generated CSS Code for NavBar
+ */
+.navbar-default {
+  background: none;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-radius: 0;
+  /*background-color: #0e1324;*/
+  border-color: #d91b5e;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #00ffcc;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #00ffcc;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #9b59b6;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ecdbff;
+  background-color: #8e44ad;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #8e44ad;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ecdbff;
+  background-color: #8e44ad;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #00ffcc;
+  background-color: #d91b5e;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #00ffcc;
+  background-color: #d91b5e;
+}
+.navbar-default .navbar-toggle {
+  border-color: #d91b5e;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #d91b5e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #00ffcc;
+} /* Generated CSS Code for NavBar */
+
+/*General Settings*/
+body {
+  background-color: #0e1324;
+}
+
+/*Navbar Items*/
+.nav-items>li {
+  float: none;
+  display: inline-block;
+  border-bottom: none;
+}
+
+.nav-items>li:hover {
+  border-bottom: solid 4px #d91b5e;
+}
+
+/*Navbar Logo*/
+.nav-items .nav-logo:hover { border-bottom: none; }
+.nav-items .nav-logo img:first-child { display: none; }
+.nav-items .nav-logo:hover img:last-child { display: none; }
+.nav-items .nav-logo:hover img:first-child { display: inline-block; }
+
+/*
+ * Mobile Styling
+ */
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #00ffcc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #00ffcc;
+    background-color: #d91b5e;
+  }
+
+  .navbar-brand {
+  background-image: url(../images/spaceboy-logo-small.png);
+  background-repeat: no-repeat;
+  background-size: 50px auto;
+  padding-left: 60px;
+  background-position: 0 0;
+  position: absolute;
+  font-size: 1.5em;
+  padding-top: 19px;
+  }
+
+  .nav-items>li {
+    display: block;
+    text-align: center;
+  }
+
+  .nav-items>li:hover {
+    border-bottom: none;
+    background-color: #d91b5e;
+  }
+
+  .menu-button-text {
+    color: #ffffff;
+  }
+
+  .menu-button-text:hover {
+    color: #00ffcc;
+  }
+
+  .menu-button {
+    background-color: #d91b5e;
+  }
+}
