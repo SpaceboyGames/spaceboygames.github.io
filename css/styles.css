@@ -14,7 +14,7 @@
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #00ffcc;
+  color: #00ccff;
 }
 .navbar-default .navbar-text {
   color: #ffffff;
@@ -22,11 +22,12 @@
 .navbar-default .navbar-nav > li > a {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.2em;
+  font-weight: bold;
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #00ffcc;
+  color: #00ccff;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
   background-color: #9b59b6;
@@ -51,13 +52,13 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #00ffcc;
+  color: #00ccff;
   background-color: #d91b5e;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #00ffcc;
+  color: #00ccff;
   background-color: #d91b5e;
 }
 .navbar-default .navbar-toggle {
@@ -78,7 +79,7 @@
   color: #ffffff;
 }
 .navbar-default .navbar-link:hover {
-  color: #00ffcc;
+  color: #00ccff;
 } /* Generated CSS Code for NavBar */
 
 /*General Settings*/
@@ -93,8 +94,12 @@ body {
   border-bottom: none;
 }
 
-.nav-items>li:hover {
+.nav-items-text:hover {
   border-bottom: solid 4px #d91b5e;
+}
+
+.nav-items-active {
+  border-bottom: solid 4px #00ccff;
 }
 
 /*Navbar Logo*/
@@ -112,12 +117,12 @@ body {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #00ffcc;
+    color: #00ccff;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #00ffcc;
+    color: #00ccff;
     background-color: #d91b5e;
   }
 
@@ -144,10 +149,11 @@ body {
 
   .menu-button-text {
     color: #ffffff;
+    font-weight: bold;
   }
 
   .menu-button-text:hover {
-    color: #00ffcc;
+    color: #00ccff;
   }
 
   .menu-button {
