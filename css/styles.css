@@ -7,35 +7,41 @@ footer {
   background-color: #222222;
 }
 
-.copyright-footer{
+.copyright-footer p{
   text-align: center;
   color: #aaaaaa;
+  margin-bottom: 0;
 }
 
 .mosaic {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .mosaic img {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+h1.top-description {
+  text-align: center;
+  font-size: 1.5em;
+  color: #dddddd;
+  font-style: italic;
+}
+
+h2.top-description {
+  text-align: center;
+  font-size: 1.5em;
+  color: #d91a5e;
+  font-style: italic;
 }
 
 /*
  * Mobile Styling
  */
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #00ccff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #00ccff;
-    background-color: #d91b5e;
-  }
+
 } /* Mobile Styling */
