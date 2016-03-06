@@ -39,6 +39,33 @@ h2.top-description {
   font-style: italic;
 }
 
+.Favicons {
+  text-align: center;;
+}
+
+.Favicons a:hover
+{
+  padding-bottom: 17px;
+  border-bottom: 4px solid #00ffcc;
+}
+
+.content-h1 {
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+.team-text pre {
+  color: #ffffff;
+  font-size: 1em;
+  background-color: #0e1324;
+  border-width: 0;
+}
+
+.team-text pre a {
+  color: #d91a5e;
+  text-decoration: underline;
+}
+
 /*
  * Mobile Styling
  */
