@@ -1,42 +1,40 @@
 /*General Settings*/
 body {
-  background-color: #0e1324;
-}
-
-footer {
-  background-color: #222222;
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 100;
+   background-color: #0e1324;
 }
 
 .copyright-footer p{
   text-align: center;
-  color: #aaaaaa;
+  color: #d91a5e;
   margin-bottom: 0;
 }
 
-.mosaic {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.GIFs > img {
+  padding-bottom: 20px;
 }
 
-.mosaic img {
-  padding-left: 7px;
-  padding-right: 7px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-}
-
-h1.top-description {
+.top-description-white {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #dddddd;
   font-style: italic;
 }
 
-h2.top-description {
+.top-description-pink {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #d91a5e;
   font-style: italic;
+}
+
+.team-text {
+  color: #d91a5e;
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 15px;
 }
 
 .Favicons {
@@ -49,21 +47,19 @@ h2.top-description {
   border-bottom: 4px solid #00ffcc;
 }
 
-.content-h1 {
+.spaceboy-logo {
+  width: 150px;
+}
+
+.concept-art {
+  text-align: center;
+  color: #f36be7;
   font-size: 2em;
-  color: #FFFFFF;
+  padding-bottom: 20px;
 }
 
-.team-text pre {
-  color: #ffffff;
-  font-size: 1em;
-  background-color: #0e1324;
-  border-width: 0;
-}
-
-.team-text pre a {
-  color: #d91a5e;
-  text-decoration: underline;
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
 
 /*
