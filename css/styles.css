@@ -23,6 +23,7 @@ body {
 }
 
 .top-description-pink {
+  max-width: 500px;
   text-align: center;
   font-size: 1.3em;
   color: #d91a5e;
