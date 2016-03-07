@@ -29,6 +29,16 @@ body {
   font-style: italic;
 }
 
+.presskit{
+  text-align: center;
+}
+
+.presskit > a {
+  font-weight: 100;
+  color: #d91a5e;
+  font-size: 1.3em;
+}
+
 .team-text {
   color: #d91a5e;
   font-size: 1.7em;
