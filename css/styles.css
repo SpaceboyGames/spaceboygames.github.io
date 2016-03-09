@@ -15,17 +15,16 @@ body {
   padding-bottom: 20px;
 }
 
-.top-description-white {
-  text-align: center;
-  font-size: 1.3em;
-  color: #dddddd;
-  font-style: italic;
-}
-
 .fara-logo-bg {
   position: absolute;
   top: 0;
   z-index: -1;
+}
+
+.top-description-white {
+  text-align: center;
+  font-size: 1.3em;
+  color: #dddddd;
 }
 
 .top-description-pink {
