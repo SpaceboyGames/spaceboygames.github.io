@@ -25,6 +25,7 @@ body {
   text-align: center;
   font-size: 1.3em;
   color: #dddddd;
+  font-style: italic;
 }
 
 .top-description-pink {
@@ -32,7 +33,6 @@ body {
   text-align: center;
   font-size: 1.3em;
   color: #d91a5e;
-  font-style: italic;
 }
 
 .presskit{
