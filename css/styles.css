@@ -5,6 +5,25 @@ body {
    background-color: #0e1324;
 }
 
+p {
+  color: #dddddd;
+  font-size: 1.1em;
+}
+
+ul {
+  color: #dddddd;
+}
+
+td {
+  padding: 0 50px 30px 50px;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .copyright-footer p{
   text-align: center;
   color: #d91a5e;
@@ -88,6 +107,22 @@ body {
 
 .carousel-inner > .item > img {
     margin: 0 auto;
+}
+
+.press-title {
+  font-size: 1.6em;
+  color: #dddddd;
+  font-weight: bold;
+}
+
+.press-subtitle {
+  color: #dddddd;
+  font-weight: bold;
+}
+
+.press-text {
+  color: #dddddd;
+  font-size: 1.1em;
 }
 
 /*
