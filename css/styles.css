@@ -113,6 +113,7 @@ table {
   font-size: 1.6em;
   color: #dddddd;
   font-weight: bold;
+
 }
 
 .press-subtitle {
@@ -124,6 +125,28 @@ table {
   color: #dddddd;
   font-size: 1.1em;
 }
+
+.press-nav {
+  /*position: fixed;*/
+  font-size: 1.2em;
+}
+
+.press-nav li {
+  list-style-type: none;
+}
+
+.press-nav a:link {
+  color: #dddddd;
+}
+
+.press-nav a:visited {
+  color: #dddddd;
+}
+
+.press-nav a:hover {
+  color: #d91a5e;
+}
+
 
 /*
  * Mobile Styling
