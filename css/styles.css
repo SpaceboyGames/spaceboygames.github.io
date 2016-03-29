@@ -162,16 +162,16 @@ table {
 }
 
 .press-fara-logo {
-  max-width: 500px;
+  width: 500px;
 }
 
 .press-spaceboy-logo {
-  max-width: 300px;
+  width: 300px;
   padding-bottom: 50px;
 }
 
 .press-images {
-  max-width: 600px;
+  width: 600px;
   padding-bottom: 30px;
 }
 
