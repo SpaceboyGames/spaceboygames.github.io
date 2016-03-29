@@ -165,8 +165,27 @@ table {
   max-width: 500px;
 }
 
-.press-gray-bg {
-  background-color: #202c55;
+.press-spaceboy-logo {
+  max-width: 300px;
+  padding-bottom: 50px;
+}
+
+.press-images {
+  max-width: 600px;
+  padding-bottom: 30px;
+}
+
+.press-download {
+  padding: 10px 15px 10px 15px;
+  background-color: #C7D4FF;
+  border-style: solid;
+  border-color: #446BF2;
+  border-width: 2px;
+}
+
+.press-download a {
+  color: #446BF2;
+  font-weight: bold;
 }
 
 /*
