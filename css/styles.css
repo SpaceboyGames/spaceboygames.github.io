@@ -59,9 +59,15 @@ table {
 }
 
 .presskit > a {
-  font-weight: 100;
+  font-weight: bolder;
   color: #d91a5e;
-  font-size: 1.3em;
+  font-size: 1.4em;
+}
+
+.presskit > a:hover {
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 4px solid #00ffcc;
 }
 
 .team-text {
@@ -137,16 +143,30 @@ table {
 
 .press-nav a:link {
   color: #dddddd;
+  text-decoration: none;
 }
 
 .press-nav a:visited {
   color: #dddddd;
+  text-decoration: none;
 }
 
 .press-nav a:hover {
   color: #d91a5e;
+  text-decoration: none;
 }
 
+.press-nav a:active {
+  text-decoration: none;
+}
+
+.press-fara-logo {
+  max-width: 500px;
+}
+
+.press-gray-bg {
+  background-color: #dddddd;
+}
 
 /*
  * Mobile Styling
