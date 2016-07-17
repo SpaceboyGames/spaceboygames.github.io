@@ -1,0 +1,190 @@
+/*General Settings*/
+body {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 100;
+   background-color: #f6ecd3;
+}
+
+p {
+  color: #111111;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+ul {
+  color: #111111;
+}
+
+td {
+  padding: 0 50px 30px 50px;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright-footer p {
+  text-align: center;
+  color: #d91a5e;
+  margin-bottom: 0;
+}
+
+.GIFs > img {
+  padding-bottom: 20px;
+}
+
+.fara-logo-bg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.top-description {
+  text-align: center;
+  font-size: 1.3em;
+  color: #d91a5e;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.presskit{
+  text-align: center;
+}
+
+.presskit > a {
+  font-weight: bolder;
+  color: #d91a5e;
+  font-size: 1.4em;
+}
+
+.presskit > a:hover {
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 4px solid #00ffcc;
+}
+
+.team-text {
+  color: #d91a5e;
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.Favicons {
+  text-align: center;;
+}
+
+.Favicons a:hover
+{
+  padding-bottom: 17px;
+  border-bottom: 4px solid #00ffcc;
+}
+
+.spaceboy-logo {
+  width: 150px;
+}
+
+.concept-art {
+  text-align: center;
+  color: #f36be7;
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+.glyphicon {
+  color: #ff337a;
+}
+
+.carousel-circles {
+  color: #ff337a;
+}
+
+.carousel {
+  max-width: 700px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.press-title {
+  font-size: 1.6em;
+  color: #111111;
+  font-weight: bold;
+
+}
+
+.press-subtitle {
+  color: #111111;
+  font-weight: bold;
+}
+
+.press-text {
+  color: #111111;
+  font-size: 1.1em;
+}
+
+.press-nav {
+  /*position: fixed;*/
+  font-size: 1.2em;
+}
+
+.press-nav li {
+  list-style-type: none;
+}
+
+.press-nav a:link {
+  color: #111111;
+  text-decoration: none;
+}
+
+.press-nav a:visited {
+  color: #111111;
+  text-decoration: none;
+}
+
+.press-nav a:hover {
+  color: #d91a5e;
+  text-decoration: none;
+}
+
+.press-nav a:active {
+  text-decoration: none;
+}
+
+.press-fara-logo {
+  width: 500px;
+}
+
+.press-spaceboy-logo {
+  width: 300px;
+  padding-bottom: 50px;
+}
+
+.press-images {
+  width: 600px;
+  padding-bottom: 30px;
+}
+
+.press-download {
+  padding: 10px 15px 10px 15px;
+  background-color: #C7D4FF;
+  border-style: solid;
+  border-color: #446BF2;
+  border-width: 2px;
+}
+
+.press-download a {
+  color: #446BF2;
+  font-weight: bold;
+}
+
+/*
+ * Mobile Styling
+ */
+@media (max-width: 767px) {
+
+} /* Mobile Styling */
