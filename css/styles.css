@@ -25,6 +25,11 @@ table {
   margin-right: auto;
 }
 
+.bottom-follow-us {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
 .copyright-footer p {
   text-align: center;
   color: #d91a5e;
